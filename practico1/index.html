@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CALCULADORA BASICA</title>
+</head>
+<body>
+    <div class="CALCULADORA">
+        <p>
+        <h1>CALCULADORA BASICA</h1>
+        </p>
+        <p> <input type="number" id="digito1" placeholder="ingrese numero" required="required" minlength="1">
+        </p>
+
+        <p> <label for="operaciones"> QUE TAREA DESEA REALIZAR?</label> 
+
+            <select name="operaciones" id="operaciones">
+                <option disabled selected>-SELECCIONA UNA OPERACION-</option>
+                <option value="division">division</option>
+                <option value="multiplicacion">multiplicacion</option>
+                <option value="resta">resta</option>
+                <option value="suma">suma</option>
+            </select>
+
+        </p>
+
+        <p> <input type="number" id="digito2" placeholder="ingrese numero" required="required" minlength="1">
+        </p>
+
+        <p> <button onclick="ObtenerResultados()" class="MOSTRAR RESULTADO">MOSTRAR RESULTADO</button> </p>
+
+        <p id="resultado"> = 0</p>
+
+        <script src="calculadorabasica.js"></script>
+
+            
+
+    </div>
+    
+</body>
+</html>

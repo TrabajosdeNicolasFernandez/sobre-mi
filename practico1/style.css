@@ -1,0 +1,14 @@
+
+body {
+   font-family: cursive, cursive;
+   background-color:antiquewhite;
+   color: #333;
+   padding: 20px;
+   border: 1px solid #ccc;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+ }
+
+ /*este codigo css, es el general de la pagina. intente hacerlo animado, mire tutoriales de youtube(claramente no lo logre jaja)*/
+ /* uso info del link del curso de mozilla y w3school.*/
+ 
